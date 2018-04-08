@@ -104,12 +104,12 @@ Form1.SQLQuery1.Params.Items[2].asstring:=a;
   Form1.SQLTransaction1.Commit;
 
   ShowMessage(' Вопрос и варианты ответов записаны');
- // Form4.close;
- // Form3.show;
- Edit1.text:=' ';
- Edit2.text:=' ';
- Edit3.text:=' ';
- Edit4.text:=' ';
+  Form4.close;
+  Form3.show;
+ //Edit1.text:=' ';
+ //Edit2.text:=' ';
+ //Edit3.text:=' ';
+ //Edit4.text:=' ';
     except
      ShowMessage(' Вопрос и варианты ответов не записаны');
  end;

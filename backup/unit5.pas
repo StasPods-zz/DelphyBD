@@ -22,7 +22,6 @@ type
     Label5: TLabel;
     Label6: TLabel;
     Label7: TLabel;
-    Label8: TLabel;
     RadioButton1: TRadioButton;
     RadioButton2: TRadioButton;
     RadioButton3: TRadioButton;
@@ -57,7 +56,6 @@ implementation
    RadioButton2.Checked:=False;
    RadioButton3.Checked:=False;
      f:=f+1;
-     Label8.Caption:=c[f-1];
     if f<=k then begin
     SQLQuery1.Close;
 

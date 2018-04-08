@@ -44,7 +44,7 @@ begin
   Label2.Caption:=Unit6.z;
   Label3.Caption:=Unit6.t;
   Label5.Caption:=FloatToStr(Unit5.z);
-  Label3.Caption:=Unit5.x;
+  Label7.Caption:=Unit5.x;
 
 end;
 

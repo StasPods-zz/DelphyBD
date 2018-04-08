@@ -1,7 +1,7 @@
 object Form4: TForm4
-  Left = 514
+  Left = 240
   Height = 240
-  Top = 306
+  Top = 315
   Width = 381
   Caption = 'Создать вопрос'
   ClientHeight = 240

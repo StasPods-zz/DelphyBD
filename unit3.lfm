@@ -1,11 +1,11 @@
 object Form3: TForm3
-  Left = 349
+  Left = 311
   Height = 261
-  Top = 274
+  Top = 490
   Width = 448
   Caption = 'Создание и редактирование'
-  ClientHeight = 0
-  ClientWidth = 0
+  ClientHeight = 261
+  ClientWidth = 448
   OnActivate = FormCreate
   OnCreate = FormCreate
   LCLVersion = '1.8.2.0'

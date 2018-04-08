@@ -152,7 +152,7 @@ begin
    Form1.SQLQuery1.SQL.Clear;
           Form1.SQLQuery1.SQL.Clear;
        Form1.SQLQuery1.SQL.Append('select substr(Otvet, 0, 20) from Otveti where №Voprosa = (select id from Voprosi where Vopros = :p1) and №Otveta = 1;');
-Form1.SQLQuery1.Params.Items[0].asstring:=ComboBox1.Text;
+Form1.SQLQuery1.Params.Items[0].Asstring:=ComboBox1.Text;
        Form1.SQLQuery1.Active:=true;
        Edit2.Text:=Form1.SQLQuery1.Fields.Fields[0].DisplayText;
 
@@ -171,7 +171,7 @@ Form1.SQLQuery1.Params.Items[0].asstring:=ComboBox1.Text;
    Form1.SQLQuery1.SQL.Clear;
           Form1.SQLQuery1.SQL.Clear;
        Form1.SQLQuery1.SQL.Append('select substr(Otvet, 0, 20) from Otveti where №Voprosa = (select id from Voprosi where Vopros = :p1) and №Otveta = 2;');
-Form1.SQLQuery1.Params.Items[0].asstring:=ComboBox1.Text;
+Form1.SQLQuery1.Params.Items[0].Asstring:=ComboBox1.Text;
        Form1.SQLQuery1.Active:=true;
        Edit3.Text:=Form1.SQLQuery1.Fields.Fields[0].DisplayText;
 
@@ -179,7 +179,7 @@ Form1.SQLQuery1.Params.Items[0].asstring:=ComboBox1.Text;
    Form1.SQLQuery1.SQL.Clear;
           Form1.SQLQuery1.SQL.Clear;
        Form1.SQLQuery1.SQL.Append('select Pravilnii from Otveti where №Voprosa = (select id from Voprosi where Vopros = :p1) and №Otveta = 2;');
-Form1.SQLQuery1.Params.Items[0].asstring:=ComboBox1.Text;
+Form1.SQLQuery1.Params.Items[0].Asstring:=ComboBox1.Text;
        Form1.SQLQuery1.Active:=true;
        b:=Form1.SQLQuery1.Fields.Fields[0].DisplayText;
        if b='1' then RadioButton2.Checked:=True;

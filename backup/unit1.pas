@@ -95,6 +95,7 @@ end;
 
 procedure TForm1.Button2Click(Sender: TObject); //начать тест
 begin
+  if Unit5.k>100 then ShowMessage(' Лимит количества вопросов ');
   if Unit5.k>0 then Form6.show else ShowMessage(' В тесте нет вопросов ');
 end;
 
